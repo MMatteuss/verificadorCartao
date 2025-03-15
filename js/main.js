@@ -29,6 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (!valid) {
             event.preventDefault();
+        } else {
+            updateCard();
         }
     });
 });
+
+function updateCard() {
+    document.getElementById('display-card-name').innerText = document.getElementById('card-name').value;
+    document.getElementById('display-card-number').innerText = document.getElementById('card-number').value;
+    document.getElementById('display-expiry-date').innerText = document.getElementById('expiry-date').value;
+    document.getElementById('display-cvv').innerText = document.getElementById('cvv').value;
+}
