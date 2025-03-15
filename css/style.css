@@ -5,11 +5,11 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-
 .right form input {
     width: 100%;
     box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
 }
 
 .container {
